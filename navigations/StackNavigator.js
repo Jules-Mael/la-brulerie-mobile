@@ -2,6 +2,7 @@ import React from "react";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import CommandeScreen from "../screens/commandeScreen";
 import DetailCommandeScreen from "../screens/detailCommandeScreen";
+import StatutCommandeScreen from "../screens/statutCommandeScreen";
 
 
 // Créer le navigator
@@ -37,6 +38,13 @@ const StackNavigator = () => {
                 component={DetailCommandeScreen}
                 options={{
                     title: "Détail de la commande"
+                }}
+            />
+            <Stack.Screen
+                name="StatutCommande"
+                component={StatutCommandeScreen}
+                options={{
+                    title: "Changer le statut de la commande"
                 }}
             />
         </Stack.Navigator>
