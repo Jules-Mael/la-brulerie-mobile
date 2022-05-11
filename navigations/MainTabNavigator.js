@@ -1,6 +1,5 @@
 import React from "react";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
-import CommandeScreen from "../screens/commandeScreen"
 import {MaterialCommunityIcons} from "@expo/vector-icons";
 import StackNavigator from "./StackNavigator";
 
